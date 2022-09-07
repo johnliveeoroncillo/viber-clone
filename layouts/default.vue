@@ -1,6 +1,6 @@
 <template>
     <div class="w-screen h-screen flex flex-row bg-gray-800">
-        <div class="w-[20%] flex flex-col border-r-2 border-gray-700 py-2 gap-3 pr-1">
+        <div class="w-[20%] flex flex-col border-r-2 border-gray-700 py-2 gap-4 pr-1">
             <div class="flex flex-row gap-3 px-2">
                 <div class="rounded-full p-1 text-white flex flex-row gap-1 items-center cursor-pointer" :class="theme_button">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -228,7 +228,7 @@
             </div>
         </div>
         <transition name="slide-fade">
-            <div class="w-[15%] flex flex-col border-l-2 border-gray-700 bg-gray-700 gap-2" v-if="show_info">
+            <div class="w-[18%] flex flex-col border-l-2 border-gray-700 bg-gray-700 gap-2" v-if="show_info">
                 <div class="relative w-full h-[250px] bg-gray-700">
                     <button class="absolute top-2 right-2 text-white cursor-pointer z-10" @click="show_info = false;">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
